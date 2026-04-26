@@ -1,0 +1,357 @@
+{\rtf1\ansi\ansicpg950\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab560
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+
+\f0\fs26 \cf0 <!DOCTYPE html>\
+<html lang="zh-Hant">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">\
+    <title>JOUKANG | \uc0\u40643 \u26580 \u21083 \u26381 \u35037 \u20462 \u36896 \u24037 \u20316 \u23460 </title>\
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;500&family=Noto+Sans+TC:wght@300;400;500&display=swap" rel="stylesheet">\
+    <style>\
+        :root \{\
+            --bg-color: #FDFBF7;\
+            --main-nude: #D6C0B3;\
+            --text-main: #4A403A;\
+            --text-muted: #8C8279;\
+            --line-light: rgba(74, 64, 58, 0.08);\
+            --white: #FFFFFF;\
+        \}\
+\
+        * \{ box-sizing: border-box; -webkit-tap-highlight-color: transparent; \}\
+\
+        body \{\
+            background-color: var(--bg-color);\
+            color: var(--text-main);\
+            font-family: 'Noto Sans TC', sans-serif;\
+            margin: 0;\
+            line-height: 1.8;\
+            letter-spacing: 0.03em;\
+            font-weight: 300;\
+        \}\
+\
+        h1, h2, h3, .serif \{\
+            font-family: 'Noto Serif TC', serif;\
+            font-weight: 500;\
+            letter-spacing: 0.15em;\
+        \}\
+\
+        header \{\
+            position: sticky;\
+            top: 0;\
+            z-index: 1000;\
+            background-color: rgba(253, 251, 247, 0.98);\
+            border-bottom: 1px solid var(--line-light);\
+        \}\
+\
+        .brand-header \{\
+            text-align: center;\
+            padding: 25px 0 10px;\
+        \}\
+\
+        .brand-header h1 \{\
+            font-size: 1.2rem;\
+            margin: 0;\
+            text-transform: uppercase;\
+        \}\
+\
+        .nav-tabs \{\
+            display: flex;\
+            overflow-x: auto;\
+            white-space: nowrap;\
+            padding: 10px 20px 15px;\
+            scrollbar-width: none;\
+            justify-content: flex-start;\
+        \}\
+        .nav-tabs::-webkit-scrollbar \{ display: none; \}\
+\
+        .nav-tabs a \{\
+            text-decoration: none;\
+            color: var(--text-muted);\
+            font-size: 0.75rem;\
+            margin-right: 25px;\
+            padding-bottom: 5px;\
+            border-bottom: 1.5px solid transparent;\
+            transition: all 0.3s ease;\
+        \}\
+\
+        .nav-tabs a.active \{\
+            color: var(--text-main);\
+            border-bottom-color: var(--main-nude);\
+            font-weight: 500;\
+        \}\
+\
+        .container \{\
+            max-width: 600px;\
+            margin: 0 auto;\
+            padding: 20px;\
+        \}\
+\
+        .card \{\
+            background: var(--white);\
+            border-radius: 4px;\
+            padding: 35px 25px;\
+            margin-bottom: 25px;\
+            box-shadow: 0 10px 30px rgba(74, 64, 58, 0.03);\
+            border: 1px solid rgba(214, 192, 179, 0.15);\
+        \}\
+\
+        section \{ scroll-margin-top: 130px; \}\
+\
+        .section-tag \{\
+            font-size: 0.65rem;\
+            text-transform: uppercase;\
+            color: var(--main-nude);\
+            display: block;\
+            margin-bottom: 8px;\
+            letter-spacing: 0.2em;\
+        \}\
+\
+        .section-title \{\
+            font-size: 1.2rem;\
+            margin-bottom: 30px;\
+            border-bottom: 1px solid var(--line-light);\
+            padding-bottom: 15px;\
+        \}\
+\
+        .price-item \{\
+            display: flex;\
+            justify-content: space-between;\
+            align-items: baseline;\
+            margin-bottom: 16px;\
+            font-size: 0.85rem;\
+        \}\
+\
+        .price-name \{ color: var(--text-main); padding-right: 15px; \}\
+        .price-val \{ font-weight: 500; white-space: nowrap; color: var(--text-main); \}\
+        .price-val span \{ font-size: 0.7rem; color: var(--text-muted); font-weight: 300; margin-left: 4px; \}\
+\
+        .additional-box \{\
+            background-color: #F9F7F4;\
+            padding: 20px;\
+            margin-top: 20px;\
+            border-left: 2px solid var(--main-nude);\
+        \}\
+\
+        .notice-list \{ padding: 0; list-style: none; \}\
+        .notice-list li \{\
+            font-size: 0.85rem;\
+            margin-bottom: 18px;\
+            display: flex;\
+            gap: 12px;\
+            align-items: flex-start;\
+        \}\
+        .notice-num \{ color: var(--main-nude); font-family: serif; font-style: italic; font-weight: bold; \}\
+\
+        .faq-item \{ margin-bottom: 25px; \}\
+        .faq-q \{ font-size: 0.9rem; font-weight: 500; color: var(--text-main); margin-bottom: 10px; display: block; \}\
+        .faq-a \{ font-size: 0.85rem; color: var(--text-muted); line-height: 1.8; \}\
+\
+        .address-box \{\
+            margin-top: 40px;\
+            margin-bottom: 20px;\
+            text-align: center;\
+        \}\
+\
+        .address-link \{\
+            font-size: 0.85rem;\
+            color: var(--text-main);\
+            text-decoration: none;\
+            border-bottom: 1px solid var(--main-nude);\
+            padding-bottom: 2px;\
+        \}\
+\
+        .contact-group \{\
+            display: grid;\
+            grid-template-columns: 1fr;\
+            gap: 12px;\
+        \}\
+\
+        .btn \{\
+            display: flex;\
+            align-items: center;\
+            justify-content: center;\
+            padding: 16px;\
+            font-size: 0.8rem;\
+            text-decoration: none;\
+            letter-spacing: 0.1em;\
+            transition: all 0.3s;\
+            border-radius: 2px;\
+        \}\
+\
+        .btn-outline \{ border: 1px solid var(--line-light); color: var(--text-main); \}\
+        .btn-solid \{ background-color: var(--main-nude); color: white; font-weight: 400; \}\
+\
+        @media (max-width: 480px) \{\
+            .container \{ padding: 15px; \}\
+            .card \{ padding: 30px 20px; \}\
+        \}\
+    </style>\
+</head>\
+<body>\
+\
+    <header>\
+        <div class="brand-header">\
+            <h1 class="serif">JOUKANG</h1>\
+        </div>\
+        <nav class="nav-tabs" id="navBar">\
+            <a href="#about" class="active">STUDIO</a>\
+            <a href="#price-bottom">\uc0\u19979 \u36523 \u33287 \u27915 \u35037 </a>\
+            <a href="#price-top">\uc0\u19978 \u36523 \u33287 \u22806 \u22871 </a>\
+            <a href="#price-suit">\uc0\u27491 \u24335 \u35199 \u35037 </a>\
+            <a href="#price-craft">\uc0\u24037 \u34269 \u36628 \u26009 </a>\
+            <a href="#notice">\uc0\u22996 \u35351 \u25552 \u37266 </a>\
+            <a href="#faq">\uc0\u21839 \u33287 \u31572 </a>\
+        </nav>\
+    </header>\
+\
+    <div class="container">\
+        \
+        <section id="about" class="card" style="text-align: center;">\
+            <span class="section-tag">Alteration Studio</span>\
+            <h2 class="serif" style="margin-top: 0;">\uc0\u40643 \u26580 \u21083 \u26381 \u35037 \u20462 \u36896 \u24037 \u20316 \u23460 </h2>\
+            <p style="font-size: 0.85rem; color: var(--text-main); line-height: 2;">\
+                \uc0\u34915 \u29289 \u30342 \u30001 \u20462 \u25913 \u24107 \u35242 \u33258 \u35386 \u26039 \u12289 \u32048 \u24515 \u26045 \u20316 <br>\
+                \uc0\u22577 \u20729 \u20381 \u32080 \u27083 \u12289 \u24037 \u27861 \u21450 \u24067 \u26009 \u35069 \u20316 \u24037 \u26178 \u25552 \u26696 \
+            </p>\
+        </section>\
+\
+        <section id="price-bottom" class="card">\
+            <span class="section-tag">Category 01</span>\
+            <h2 class="section-title serif">\uc0\u19979 \u36523 \u33287 \u27915 \u35037  <span style="font-size: 0.75rem; font-weight: 300;">Bottoms & Dresses</span></h2>\
+            <div class="price-item"><span class="price-name">\uc0\u31934 \u32251 \u38263 \u24230 \u32302 \u30701  (\u30456 \u36817 \u33394 )</span> <span class="price-val">100 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u35199 \u35037 \u35122 \u38263 \u32302 \u25918  (\u25163 \u24037 \u21315 \u40165 \u32299 )</span> <span class="price-val">150 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u29275 \u20180 \u35122 \u21407 \u33394 \u25509 \u33139  (\u20445 \u30041 \u24037 \u34269 )</span> <span class="price-val">250 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u35122 \u31649  (\u21547 \u21205 \u21040 \u35122 \u21475 )</span> <span class="price-val">300 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u33136 \u36523 \u35519 \u25972  (\u35199 \u35037 \u35122  / \u38263 \u35122 )</span> <span class="price-val">300 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u39686 \u32202 \u24118 \u35519 \u25972  (\u31777 \u21934 \u26356 \u25563 )</span> <span class="price-val">180 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u39686 \u32202 \u24118 \u35519 \u25972  (\u33136 \u38957 \u37325 \u35069 )</span> <span class="price-val">300 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u29275 \u20180 \u35122 \u25913 \u33136  (\u19968 \u33324 )</span> <span class="price-val">300 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u29275 \u20180 \u35122 \u25913 \u33136  (\u20841 \u20596 \u20462 \u25913 )</span> <span class="price-val">350 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u29275 \u20180 \u35122 \u25913 \u33136  (\u24460 \u20013 \u33136 \u38957 \u37325 \u36554 )</span> <span class="price-val">400 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u35122 \u23376 \u33136 \u36523 \u38656 \u21152 \u24067 \u22686 \u22823 </span> <span class="price-val">450 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u27915 \u35037  / \u31150 \u26381 \u25972 \u39636 \u31934 \u20462 </span> <span class="price-val">600 <span>\u20803 \u36215  \u8593 </span></span></div>\
+        </section>\
+\
+        <section id="price-top" class="card">\
+            <span class="section-tag">Category 02</span>\
+            <h2 class="section-title serif">\uc0\u19978 \u36523 \u33287 \u22806 \u22871  <span style="font-size: 0.75rem; font-weight: 300;">Tops & Jackets</span></h2>\
+            <div class="price-item"><span class="price-name">\uc0\u38263 \u24230 \u35519 \u25972  (\u35183 \u34923 )</span> <span class="price-val">120 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u38263 \u24230 \u35519 \u25972  (T-shirt \u24392 \u24615 \u36554 )</span> <span class="price-val">120 - 200 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u20677 \u21152 \u33136 \u36523  (\u35183 \u34923  / T-shirt)</span> <span class="price-val">100 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u20677 \u21152 \u33136 \u36523  (\u19981 \u38656 \u25286 \u38500 \u25235 \u36554 )</span> <span class="price-val">80 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u25913 \u38936 \u23376  (T-shirt)</span> <span class="price-val">280 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u33136 \u36523 \u35519 \u25972  (\u38656 \u25286 \u19979 \u25850 \u37325 \u35069 )</span> <span class="price-val">300 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u34966 \u38263 \u32302 \u30701  (\u35183 \u34923  / \u34966 \u21475 \u26045 \u24037 )</span> <span class="price-val">200 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u34966 \u38263 \u32302 \u30701  (\u35183 \u34923 \u31227 \u34966 \u34921 )</span> <span class="price-val">300 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u34966 \u38263 \u32302 \u30701  (\u38656 \u25913 \u34966 \u23532 )</span> <span class="price-val">300 - 400 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u26356 \u25563 \u21475 \u34955 \u24067  (\u21934 \u20491 )</span> <span class="price-val">120 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u34915 \u29289 \u20462 \u35036  / \u35036 \u27934 </span> <span class="price-val">50 <span>\u20803 \u36215  \u8593 </span></span></div>\
+        </section>\
+\
+        <section id="price-suit" class="card">\
+            <span class="section-tag">Category 03</span>\
+            <h2 class="section-title serif">\uc0\u35199 \u35037  <span style="font-size: 0.75rem; font-weight: 300;">Suit</span></h2>\
+            <div class="price-item"><span class="price-name">\uc0\u35199 \u35037 \u22806 \u22871 \u34966 \u38263  (\u28961 \u20839 \u35041 \u22522 \u28310 )</span> <span class="price-val">250 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u35199 \u35037 \u22806 \u22871 \u34966 \u38263  (\u21547 \u31227 \u25187 )</span> <span class="price-val">350 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u35199 \u35037 \u22806 \u22871 \u34966 \u38263  (\u38656 \u21205 \u34966 \u21475 )</span> <span class="price-val">400 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u22806 \u22871 \u19979 \u25850 \u38263 \u24230 \u35519 \u25972  (\u28961 \u20839 \u35041 )</span> <span class="price-val">300 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u22806 \u22871 \u19979 \u25850 \u38263 \u24230 \u35519 \u25972  (\u26377 \u20839 \u35041 )</span> <span class="price-val">450 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u32937 \u23532 \u35519 \u25972  (\u25286 \u34966 \u37325 \u32299  / \u28961 \u20839 \u35041 )</span> <span class="price-val">400 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u32937 \u23532 \u35519 \u25972  (\u25286 \u34966 \u37325 \u32299  / \u26377 \u20839 \u35041 )</span> <span class="price-val">600 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u35199 \u35037 \u35122 \u25163 \u24037 \u21315 \u40165 \u32299 \u32302 \u25918 </span> <span class="price-val">150 <span>\u20803 \u36215  \u8593 </span></span></div>\
+        </section>\
+\
+        <section id="price-craft" class="card">\
+            <span class="section-tag">Category 04</span>\
+            <h2 class="section-title serif">\uc0\u36628 \u26009 \u33287 \u24037 \u34269  <span style="font-size: 0.75rem; font-weight: 300;">Hardware & Craft</span></h2>\
+            <div class="price-item"><span class="price-name">\uc0\u26356 \u25563 \u25289 \u37706  (\u19968 \u33324  / \u29275 \u20180 )</span> <span class="price-val">150 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u26356 \u25563 \u22806 \u22871 \u25289 \u37706  (\u19968 \u33324 \u22806 \u22871 )</span> <span class="price-val">330 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u26356 \u25563 \u22806 \u22871 \u25289 \u37706  (\u38263 \u29256 \u22806 \u22871 )</span> <span class="price-val">400 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u26356 \u25563 \u38577 \u24418 \u25289 \u37706  (\u35033 )</span> <span class="price-val">200 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u26356 \u25563 \u38577 \u24418 \u25289 \u37706  (\u27915 \u35037 )</span> <span class="price-val">300 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u25163 \u24037 \u32299 \u35069 \u37397 \u37350 </span> <span class="price-val">20 <span>/ \u38982 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u32887 \u20154 \u25163 \u24037 \u25187 \u30524  (\u25163 \u32299 \u37782 \u37002 )</span> <span class="price-val">200 <span>/ \u38982 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u25563 \u25335 \u20811 \u21407 \u33394 \u32218 </span> <span class="price-val">+ 80 <span>\u20803 \u36215  \u8593 </span></span></div>\
+            <div class="price-item"><span class="price-name">\uc0\u25286 \u38500 \u37096 \u20301 \u35079 \u38620 </span> <span class="price-val">+ 50 <span>\u20803 \u36215  \u8593 </span></span></div>\
+\
+            <div class="additional-box">\
+                <p style="font-size: 0.8rem; font-weight: 500; margin-bottom: 10px;">\uc0\u9670  \u29305 \u21029 \u21152 \u25104 \u35498 \u26126 </p>\
+                <div class="price-item"><span class="price-name">\uc0\u20839 \u35041 \u27083 \u36896 \u34389 \u29702 </span> <span class="price-val">+100 ~ 300 <span>\u20803 \u36215  \u8593 </span></span></div>\
+                <div class="price-item"><span class="price-name">\uc0\u29305 \u27530 \u38754 \u26009  (\u32114  / \u30382  / \u20142 \u29255 )</span> <span class="price-val">+200 <span>\u20803 \u36215  \u8593 </span></span></div>\
+                <div class="price-item"><span class="price-name">\uc0\u24613 \u20214 \u34389 \u29702  (24-48h)</span> <span class="price-val">\u32317 \u38989  +30%</span></div>\
+                <p style="font-size: 0.7rem; color: var(--text-muted); margin-top: 10px;">* \uc0\u21332 \u23563 \u24067 \u26009 \u25110 \u29305 \u27530 \u36628 \u26009 \u65292 \u26448 \u26009 \u36027 \u21478 \u35336 \u12290 </p>\
+            </div>\
+        </section>\
+\
+        <section id="notice" class="card">\
+            <span class="section-tag">Order Policy</span>\
+            <h2 class="section-title serif">\uc0\u22996 \u35351 \u25552 \u37266 </h2>\
+            <ul class="notice-list">\
+                <li><span class="notice-num">\uc0\u9312 </span><span><strong>\u29694 \u22580 \u35413 \u20272 \u65306 </strong>\u22577 \u20729 \u20197 \u29694 \u22580 \u35430 \u31359 \u24460 \u20043 \u32080 \u27083 \u20998 \u26512 \u28858 \u28310 \u12290 </span></li>\
+                <li><span class="notice-num">\uc0\u9313 </span><span><strong>\u26368 \u20302 \u28040 \u36027 \u65306 </strong>\u21934 \u27425 \u22996 \u35351 \u22522 \u26412 \u26381 \u21209 \u36027 \u28858  $100 \u20803 \u12290 </span></li>\
+                <li><span class="notice-num">\uc0\u9314 </span><span><strong>\u23560 \u26989 \u24037 \u26399 \u65306 </strong>\u38928 \u35336  3-7 \u20491 \u24037 \u20316 \u22825 \u12290 \u24613 \u20214 \u35531 \u20808 \u34892 \u21578 \u30693 \u12290 </span></li>\
+                <li><span class="notice-num">\uc0\u9315 </span><span><strong>\u29305 \u27530 \u25505 \u36023 \u65306 </strong>\u26448 \u26009 \u21332 \u23563 \u38656 \u38918 \u24310 \u25505 \u36023 \u33287 \u36008 \u36939 \u26178 \u38291 \u12290 </span></li>\
+            </ul>\
+        </section>\
+\
+        <section id="faq" class="card">\
+            <span class="section-tag">FAQ</span>\
+            <h2 class="section-title serif">\uc0\u24120 \u35211 \u21839 \u31572 </h2>\
+            <div class="faq-item">\
+                <span class="faq-q">\uc0\u28858 \u20160 \u40636 \u21516 \u27171 \u30340 \u20462 \u25913 \u65292 \u26371 \u26377 \u19981 \u21516 \u30340 \u20570 \u27861 \u33287 \u22577 \u20729 \u65311 </span>\
+                <p class="faq-a">\uc0\u20462 \u25913 \u34915 \u29289 \u20006 \u38750 \u21934 \u19968 \u36335 \u24465 \u65292 \u20462 \u25913 \u24107 \u26371 \u26681 \u25818 \u24744 \u30340 \u38928 \u31639 \u33287 \u23565 \u34915 \u29289 \u30340 \u37325 \u35222 \u31243 \u24230 \u65292 \u25552 \u20379 \u12300 \u22522 \u30990 \u12301 \u33287 \u12300 \u31934 \u32251 \u12301 \u20841 \u31278 \u20027 \u35201 \u26041 \u21521 \u12290 </p>\
+            </div>\
+            <div class="faq-item" style="border-left: 2px solid var(--main-nude); padding-left: 15px;">\
+                <span class="faq-q" style="font-size: 0.85rem;">\uc0\u22522 \u30990 \u20462 \u25913  vs \u31934 \u32251 \u20462 \u25913 </span>\
+                <p class="faq-a">\uc0\u22522 \u30990 \u20462 \u25913 \u23560 \u27880 \u21151 \u33021 \u23526 \u29694 \u33287 \u20729 \u26684 \u20778 \u21218 \u65307 \u31934 \u32251 \u20462 \u25913 \u21063 \u36861 \u27714 \u32048 \u31680 \u36996 \u21407 \u12289 \u26045 \u20316 \u30165 \u36321 \u26368 \u23567 \u21270 \u65292 \u29978 \u33267 \u26159 \u21109 \u24847 \u29256 \u22411 \u37325 \u27083 \u12290 </p>\
+            </div>\
+        </section>\
+\
+        <section id="contact" style="text-align: center; padding-bottom: 50px;">\
+            <div class="address-box">\
+                <span class="section-tag" style="margin-bottom: 12px;">Studio Location</span>\
+                <a href="https://maps.google.com/?q=\uc0\u23452 \u34349 \u24066 \u24247 \u27138 \u36335 137\u24055 25\u34399 " target="_blank" class="address-link">\
+                    \uc0\u55357 \u56525  \u23452 \u34349 \u24066 \u24247 \u27138 \u36335 137\u24055 25\u34399 \
+                </a>\
+            </div>\
+            <div class="contact-group">\
+                <a href="https://www.instagram.com/joukanghuang_studio/" target="_blank" class="btn btn-outline">INSTAGRAM</a>\
+                <a href="https://line.me/R/ti/p/@913lyayl" target="_blank" class="btn btn-solid">\uc0\u21152 \u20837 \u23448 \u26041 LINE\u22909 \u21451 </a>\
+            </div>\
+            <p style="font-size: 0.6rem; color: var(--text-muted); margin-top: 30px; letter-spacing: 0.3em;">\
+                \'a9 2026 JOUKANG ALTERATION STUDIO.\
+            </p>\
+        </section>\
+\
+    </div>\
+\
+    <script>\
+        const navLinks = document.querySelectorAll('.nav-tabs a');\
+        const sections = document.querySelectorAll('section');\
+\
+        window.addEventListener('scroll', () => \{\
+            let current = "";\
+            sections.forEach(section => \{\
+                const sectionTop = section.offsetTop;\
+                if (pageYOffset >= sectionTop - 150) \{\
+                    current = section.getAttribute('id');\
+                \}\
+            \});\
+\
+            navLinks.forEach(a => \{\
+                a.classList.remove('active');\
+                if (a.getAttribute('href').includes(current)) \{\
+                    a.classList.add('active');\
+                    a.scrollIntoView(\{ behavior: 'smooth', inline: 'center', block: 'nearest' \});\
+                \}\
+            \});\
+        \});\
+    </script>\
+</body>\
+</html>}
